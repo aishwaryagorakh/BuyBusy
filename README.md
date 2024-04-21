@@ -1,38 +1,55 @@
-<h1>BuyBusy</h1>
-<p>This is an online shopping / eCommerce website made using Reactjs, firebase database for storing data on cloud and ContextAPI for store state and creating functions. On this site any user can signUp and signIn in his/her account. A user can add or remove product from cart , he can increase or decrease product quantity and can place order. User data will be saved in firebase database, So the user can view his purchase history anytime.</p>
+# BusyBuy App
 
-<a href="https://buybusy-rajxode.netlify.app/">Go Live to Website</a>
+## Description
+
+The BusyBuy app is a React application integrated with Firebase for CRUD functionality of products in the cart, user authentication, and state management. It allows users to register, login, browse products, add them to the cart, and make purchases.
+
+## Requirements
+
+1. **Firebase Integration:** Initialize Firestore for the app's database.
+2. **User Authentication:** Implement user registration and login using Firebase Authentication.
+3. **Routing:** Implement routing using react-router-dom for different pages.
+4. **State Management:** Utilize the useContext() hook for managing user authentication or products.
+5. **React Hooks:** Implement proper state management and use React Hooks for handling user interactions and data updates.
+6. **Code Quality:** Ensure high-standard code quality with proper documentation of code and functionality.
+7. **Original Code:** All code must be original and developed specifically for this project without cheating or copy-pasting from other sources.
+
+## Tasks
+
+1. **Firestore Setup:** Create and initialize a new Firestore for the BusyBuy app.
+2. **Registration Page:** Create a registration page for new users to register.
+3. **Login Page:** Create a login page for existing users to log in.
+4. **Home Page:** Create a home page to display a list of products, including search functionality by product name.
+5. **Cart Page:** Create a cart page to display products added to the cart, with functionality to add or remove products.
+6. **Product Card Component:** Create a reusable product card component displaying product details and add/remove functionality.
+7. **Orders Page:** Create an orders page to display purchased products and order dates.
+
+## Additional Functionality (Optional)
+
+- **Sidebar Filtering:** Add a sidebar to filter products based on price and categories on the Home Page.
+- **Loading State:** Implement loading state using the react-spinners library.
+- **Toast Messages:** Show toast messages for async actions and error conditions using the react-toastify library.
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Configure Firebase credentials.
+4. Run `npm start` to start the development server.
+
+## Usage
+
+- Register or login to access the app.
+- Browse products, add them to the cart, and make purchases.
+- View orders in the orders page.
+
+## Credits
+
+- Firebase: [https://firebase.google.com/](https://firebase.google.com/)
+- React Router DOM: [https://reactrouter.com/](https://reactrouter.com/)
+- React Hooks: [https://reactjs.org/docs/hooks-intro.html](https://reactjs.org/docs/hooks-intro.html)
+- React Spinners: [https://www.npmjs.com/package/react-spinners](https://www.npmjs.com/package/react-spinners)
+- React Toastify: [https://www.npmjs.com/package/react-toastify](https://www.npmjs.com/package/react-toastify)
 
 
-<h2>Installation and running code</h2>
-<ul>
-  <li>Get the code on your machine.</li>
-  <li>Navigate to the root directory of the code.</li>
-  <li>Open command terminal.</li>
-  <li>run command "npm install" to get all required dependencies.</li>
-  <li>to run the code run the command "npm start" in your terminal.</li>
-  <li>user can see the output by opening following link <a href="http://localhost:3000/">http://localhost:3000/</a> on there browser.</li>
-</ul>
 
-<h2>Features</h2>
-<ul>
-  <li>A user can create his account.</li>
-  <li>A user can signIn in his account.</li>
-  <li>User can add multiple products to his cart by click on "add to cart" button.</li>
-  <li>User can remove a specific product or all product at once from the cart.</li>
-  <li>User can increase or decrease the quantity of a product.</li>
-  <li>User can purchase all the product at once by clicking on purchase all.</li>
-  <li>User can see his placed order history with date and time of order and list of all the product purchased with total amount.</li></li>
-  <li>User data will be saved in database permanently so that he can see his order history any time.</li>
-</ul>
-
-<h2>Tools and libraries</h2>
-<ul>
-  <li>React js</li>
-  <li>Firebase Database</li>
-  <li>ContextAPI</li>
-  <li>react-router-dom</li>
-  <li>react-toastify</li>
-  <li>react-spinner</li>
-  <li>CSS</li>
-</ul>
